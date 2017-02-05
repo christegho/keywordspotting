@@ -15,19 +15,41 @@ def getIndexer(filename):
 				positioner.update({arc[0] : []})
 				fileArcs.update({arc[0] : []})
 				position = 0
+				scorer[arc[0]].append(float(arc[5]))
+				positioner[arc[0]].append(arc[4].lower())
+				fileArcs[arc[0]].append(arc)
 			else:
 				position += 1
 				scorer[arc[0]].append(float(arc[5]))
-				positioner[arc[0]].append(arc[4])
+				positioner[arc[0]].append(arc[4].lower())
 				fileArcs[arc[0]].append(arc)
-			if (not(arc[4] in indexer)):
-				indexer.update({arc[4] : {}})
-			if (not(arc[0] in indexer[arc[4]])):
-				indexer[arc[4]].update({arc[0] : {}})
-			indexer[arc[4]][arc[0]].update({arc[2]:{'ch':arc[1], 'dur':arc[3], 'score':arc[5], 'pos': position}})
+			if (not(arc[4].lower() in indexer)):
+				indexer.update({arc[4].lower() : {}})
+			if (not(arc[0] in indexer[arc[4].lower()])):
+				indexer[arc[4].lower()].update({arc[0] : {}})
+			indexer[arc[4].lower()][arc[0]].update({arc[2]:{'ch':arc[1], 'dur':arc[3], 'score':arc[5], 'pos': position}})
 	return indexer, scorer, positioner, fileArcs
 
-
+def getOutput():
+	indexer, scorer, positioner, fileArcs = getIndexer('reference.ctm')
+	indir = './lib/kws/' + 'queries.xml'
+	text = open(indir).read()
+	entries = text.split('</kwtext>\n  </kw>\n  <kw ')
+	output = '<kwslist kwlist_filename="IARPA-babel202b-v1.0d_conv-dev.kwlist.xml" language="swahili" system_id="">'
+	entries[0] = entries[0].split('>\n  <kw ')[1]
+	entries[len(entries)-1] = entries[len(entries)-1].split('</kwtext>\n  </kw>\n</kwlist>')[0]
+	for entry in entries:
+		entry = entry.split('">\n    <kwtext>')
+		query = entry[1].split(' ')
+		kwid = entry[0].split('="')[1]
+		print query, kwid
+		output +='\n<detected_kwlist kwid="' + kwid + '" oov_count="0" search_time="0.0">'
+		output += searchToken(query, indexer, scorer, positioner, fileArcs)
+		output += '\n</detected_kwlist>'
+	output += '\n</kwslist>'
+	text_file = open("output/reference1.xml", "w")
+	text_file.write(output)
+	text_file.close()
 
 def searchToken(query, indexer, scorer, positioner, fileArcs):
 	result = ''
@@ -38,10 +60,20 @@ def searchToken(query, indexer, scorer, positioner, fileArcs):
 		if query[indexWord] in indexer:
 			tempRes.append(indexer[query[indexWord]])
 		else:
-				print 'non'
+			return result
 
 	if len(tempRes) < 2:
-		print tempRes
+		for file in indexer[query[indexWord]]:
+			for arc in indexer[query[indexWord]][file]:
+				dur = indexer[query[indexWord]][file][arc]['dur']
+				score = float(indexer[query[indexWord]][file][arc]['score'])
+				pos0 = int(indexer[query[indexWord]][file][arc]['pos'])
+				score *= reduce(lambda x, y: x*y, scorer[file][:pos0])
+				score *= reduce(lambda x, y: x*y, scorer[file][pos0:])
+				result += '\n'
+				result += '<kw file="' + file + '" channel="' + indexer[query[indexWord]][file][arc]['ch'] + '" tbeg="' + arc + '" dur="' + dur + '" score="' + str(score)	+  '" decision="YES"/>'
+		return result
+
 	else:
 		for file in tempRes[0]:
 			validFile = True
@@ -57,8 +89,12 @@ def searchToken(query, indexer, scorer, positioner, fileArcs):
 					indexWord = 1
 					validPosition = True
 					while(validPosition and indexWord < len(query)):
-						if (query[indexWord] == positioner[file][position+indexWord]):
-							indexWord += 1
+						#print indexWord,position,file
+						if position+indexWord < len(positioner[file]):
+							if (query[indexWord] == positioner[file][position+indexWord]):
+								indexWord += 1
+							else:
+								validPosition = False		
 						else:
 							validPosition = False
 					if (validPosition):
@@ -83,16 +119,19 @@ def searchToken(query, indexer, scorer, positioner, fileArcs):
 				#print query[0],tpRes[0][0],tpRes[0][2], tpRes[len(tpRes)-1][2]
 				pos0 = indexer[query[0]][tpRes[0][0]][tpRes[0][2]]['pos']
 				posF = indexer[query[len(query)-1]][tpRes[0][0]][tpRes[len(tpRes)-1][2]]['pos']
-				score *= reduce(lambda x, y: x*y, scorer[tpRes[0][0]][:pos0])
-				score *= reduce(lambda x, y: x*y, scorer[tpRes[0][0]][posF:])
+				if pos0 != 0:
+					score *= reduce(lambda x, y: x*y, scorer[tpRes[0][0]][:pos0])
+				#print posF, len(scorer[tpRes[0][0]]), tpRes[0][0]
+				if posF != len(scorer[tpRes[0][0]])-1:
+					score *= reduce(lambda x, y: x*y, scorer[tpRes[0][0]][posF:])
 				result += '\n'
 				result += '<kw file="' + tpRes[0][0] + '" channel="' + tpRes[0][1] + '" tbeg="' + str(tbeg) + '" dur="' + str(dur) + '" score="' + str(score)	+  '" decision="YES"/>'
 		return result
-
+#from indexer import *
 #indexer['naendelea']['BABEL_OP2_202_15420_20140210_010333_inLine']['167.89']
 
 def test():
 	indexer, scorer, positioner, fileArcs = getIndexer('reference.ctm')
-	query = ['naendelea', 'kungoja']	
+	query = ['elisa']	
 	return searchToken(query, indexer, scorer, positioner, fileArcs)	
 

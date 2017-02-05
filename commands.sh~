@@ -1,0 +1,1 @@
+./scripts/termselect.sh lib/terms/ivoov.map output/reference1.xml scoring all
