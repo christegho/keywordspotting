@@ -1,3 +1,4 @@
+import argparse
 def getIndexer(filename):
 	indir = './lib/ctms/' + filename
 	text = open(indir).read()
@@ -15,6 +16,7 @@ def getIndexer(filename):
 				positioner.update({arc[0] : []})
 				fileArcs.update({arc[0] : []})
 				position = 0
+				print arc
 				scorer[arc[0]].append(float(arc[5]))
 				positioner[arc[0]].append(arc[4].lower())
 				fileArcs[arc[0]].append(arc)
@@ -30,8 +32,8 @@ def getIndexer(filename):
 			indexer[arc[4].lower()][arc[0]].update({arc[2]:{'ch':arc[1], 'dur':arc[3], 'score':arc[5], 'pos': position}})
 	return indexer, scorer, positioner, fileArcs
 
-def getOutput():
-	indexer, scorer, positioner, fileArcs = getIndexer('reference.ctm')
+def getOutput(inFile, outFile):
+	indexer, scorer, positioner, fileArcs = getIndexer(inFile)
 	indir = './lib/kws/' + 'queries.xml'
 	text = open(indir).read()
 	entries = text.split('</kwtext>\n  </kw>\n  <kw ')
@@ -47,7 +49,7 @@ def getOutput():
 		output += searchToken(query, indexer, scorer, positioner, fileArcs)
 		output += '\n</detected_kwlist>'
 	output += '\n</kwslist>'
-	text_file = open("output/reference1.xml", "w")
+	text_file = open("output/"+outFile, "w")
 	text_file.write(output)
 	text_file.close()
 
@@ -134,4 +136,21 @@ def test():
 	indexer, scorer, positioner, fileArcs = getIndexer('reference.ctm')
 	query = ['elisa']	
 	return searchToken(query, indexer, scorer, positioner, fileArcs)	
+
+
+def main() :
+    
+    parser = argparse.ArgumentParser(description='KWS Indexer.')
+    #parser.add_argument('--ta', dest='timalign', action='store', default=0.2,      help='timalign')
+    parser.add_argument('--in', dest='inFile', action='store', required=True,
+                        help='In File CTM')
+    parser.add_argument('--out', dest='outFile', action='store', required=True,
+                        help='Out File XML')
+   
+    args = parser.parse_args()
+    getOutput(args.inFile, args.outFile)
+    
+    
+if __name__ == '__main__':
+    main()
 
