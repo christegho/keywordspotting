@@ -32,9 +32,9 @@ def getIndexer(filename):
 			indexer[arc[4].lower()][arc[0]].update({arc[2]:{'ch':arc[1], 'dur':arc[3], 'score':arc[5], 'pos': position}})
 	return indexer, scorer, positioner, fileArcs
 
-def getOutput(inFile, outFile):
+def getOutput(inFile, outFile, queriesFile):
 	indexer, scorer, positioner, fileArcs = getIndexer(inFile)
-	indir = './lib/kws/' + 'queries.xml'
+	indir = './lib/kws/' + queriesFile
 	text = open(indir).read()
 	entries = text.split('</kwtext>\n  </kw>\n  <kw ')
 	output = '<kwslist kwlist_filename="IARPA-babel202b-v1.0d_conv-dev.kwlist.xml" language="swahili" system_id="">'
@@ -70,8 +70,8 @@ def searchToken(query, indexer, scorer, positioner, fileArcs):
 				dur = indexer[query[indexWord]][file][arc]['dur']
 				score = float(indexer[query[indexWord]][file][arc]['score'])
 				pos0 = int(indexer[query[indexWord]][file][arc]['pos'])
-				score *= reduce(lambda x, y: x*y, scorer[file][:pos0])
-				score *= reduce(lambda x, y: x*y, scorer[file][pos0:])
+				#score *= reduce(lambda x, y: x*y, scorer[file][:pos0])
+				#score *= reduce(lambda x, y: x*y, scorer[file][pos0:])
 				result += '\n'
 				result += '<kw file="' + file + '" channel="' + indexer[query[indexWord]][file][arc]['ch'] + '" tbeg="' + arc + '" dur="' + dur + '" score="' + str(score)	+  '" decision="YES"/>'
 		return result
@@ -117,15 +117,16 @@ def searchToken(query, indexer, scorer, positioner, fileArcs):
 				dur = float(tpRes[len(tpRes)-1][2])+float(tpRes[len(tpRes)-1][3])-float(tbeg)
 				score = 1
 				for res in tpRes:	
-					score *= float(res[5])
+					score += float(res[5])
+				score = score / float(len(tpRes))
 				#print query[0],tpRes[0][0],tpRes[0][2], tpRes[len(tpRes)-1][2]
 				pos0 = indexer[query[0]][tpRes[0][0]][tpRes[0][2]]['pos']
 				posF = indexer[query[len(query)-1]][tpRes[0][0]][tpRes[len(tpRes)-1][2]]['pos']
-				if pos0 != 0:
-					score *= reduce(lambda x, y: x*y, scorer[tpRes[0][0]][:pos0])
+				#if pos0 != 0:
+					#score *= reduce(lambda x, y: x*y, scorer[tpRes[0][0]][:pos0])
 				#print posF, len(scorer[tpRes[0][0]]), tpRes[0][0]
-				if posF != len(scorer[tpRes[0][0]])-1:
-					score *= reduce(lambda x, y: x*y, scorer[tpRes[0][0]][posF:])
+				#if posF != len(scorer[tpRes[0][0]])-1:
+					#score *= reduce(lambda x, y: x*y, scorer[tpRes[0][0]][posF:])
 				result += '\n'
 				result += '<kw file="' + tpRes[0][0] + '" channel="' + tpRes[0][1] + '" tbeg="' + str(tbeg) + '" dur="' + str(dur) + '" score="' + str(score)	+  '" decision="YES"/>'
 		return result
@@ -146,9 +147,11 @@ def main() :
                         help='In File CTM')
     parser.add_argument('--out', dest='outFile', action='store', required=True,
                         help='Out File XML')
+    parser.add_argument('--queries', dest='queriesFile', action='store', required=True,
+                        help='Out File XML')
    
     args = parser.parse_args()
-    getOutput(args.inFile, args.outFile)
+    getOutput(args.inFile, args.outFile, args.queriesFile)
     
     
 if __name__ == '__main__':
