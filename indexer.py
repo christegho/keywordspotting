@@ -32,7 +32,7 @@ def getIndexer(filename):
 			indexer[arc[4].lower()][arc[0]].update({arc[2]:{'ch':arc[1], 'dur':arc[3], 'score':arc[5], 'pos': position}})
 	return indexer, scorer, positioner, fileArcs
 
-def getOutput(inFile, outFile, queriesFile):
+def getOutput(inFile, outFile, queriesFile, snpower):
 	indexer, scorer, positioner, fileArcs = getIndexer(inFile)
 	indir = './lib/kws/' + queriesFile
 	text = open(indir).read()
@@ -46,17 +46,23 @@ def getOutput(inFile, outFile, queriesFile):
 		kwid = entry[0].split('="')[1]
 		print query, kwid
 		output +='\n<detected_kwlist kwid="' + kwid + '" oov_count="0" search_time="0.0">'
-		output += searchToken(query, indexer, scorer, positioner, fileArcs)
+		output += searchToken(query, indexer, scorer, positioner, fileArcs, snpower)
 		output += '\n</detected_kwlist>'
 	output += '\n</kwslist>'
 	text_file = open("output/"+outFile, "w")
 	text_file.write(output)
 	text_file.close()
 
-def searchToken(query, indexer, scorer, positioner, fileArcs):
+def searchToken(query, indexer, scorer, positioner, fileArcs, snpower):
 	result = ''
 	tempRes = []
 	tempRes2 = []
+
+	fileA = []
+	channelA = []
+	tbegA = []
+	durA = []
+	scoreA = []
 
 	for indexWord in range(len(query)):
 		if query[indexWord] in indexer:
@@ -70,10 +76,17 @@ def searchToken(query, indexer, scorer, positioner, fileArcs):
 				dur = indexer[query[indexWord]][file][arc]['dur']
 				score = float(indexer[query[indexWord]][file][arc]['score'])
 				pos0 = int(indexer[query[indexWord]][file][arc]['pos'])
+				fileA.append(file)
+				channelA.append(indexer[query[indexWord]][file][arc]['ch'])
+				tbegA.append(arc)
+				durA.append(dur)
+				scoreA.append(score)
 				#score *= reduce(lambda x, y: x*y, scorer[file][:pos0])
 				#score *= reduce(lambda x, y: x*y, scorer[file][pos0:])
-				result += '\n'
-				result += '<kw file="' + file + '" channel="' + indexer[query[indexWord]][file][arc]['ch'] + '" tbeg="' + arc + '" dur="' + dur + '" score="' + str(score)	+  '" decision="YES"/>'
+		scoreTotal = sum(i**snpower for i in scoreA)
+		for hit in range(len(tbegA)):
+			result += '\n'
+			result += '<kw file="' + fileA[hit] + '" channel="' + channelA[hit] + '" tbeg="' + tbegA[hit] + '" dur="' + durA[hit] + '" score="' + str((scoreA[hit]**snpower)/scoreTotal)	+  '" decision="YES"/>'
 		return result
 
 	else:
@@ -115,7 +128,7 @@ def searchToken(query, indexer, scorer, positioner, fileArcs):
 			if(validTpRes):
 				tbeg = tpRes[0][2]
 				dur = float(tpRes[len(tpRes)-1][2])+float(tpRes[len(tpRes)-1][3])-float(tbeg)
-				score = 1
+				score = 0
 				for res in tpRes:	
 					score += float(res[5])
 				score = score / float(len(tpRes))
@@ -127,8 +140,15 @@ def searchToken(query, indexer, scorer, positioner, fileArcs):
 				#print posF, len(scorer[tpRes[0][0]]), tpRes[0][0]
 				#if posF != len(scorer[tpRes[0][0]])-1:
 					#score *= reduce(lambda x, y: x*y, scorer[tpRes[0][0]][posF:])
-				result += '\n'
-				result += '<kw file="' + tpRes[0][0] + '" channel="' + tpRes[0][1] + '" tbeg="' + str(tbeg) + '" dur="' + str(dur) + '" score="' + str(score)	+  '" decision="YES"/>'
+				fileA.append(tpRes[0][0])
+				channelA.append(tpRes[0][1])
+				tbegA.append(str(tbeg))
+				durA.append(str(dur))
+				scoreA.append(score)
+		scoreTotal = sum(i**snpower for i in scoreA)
+		for hit in range(len(tbegA)):
+			result += '\n'
+			result += '<kw file="' + fileA[hit] + '" channel="' + channelA[hit] + '" tbeg="' + tbegA[hit] + '" dur="' + durA[hit] + '" score="' + str((scoreA[hit]**snpower)/scoreTotal) +  '" decision="YES"/>'
 		return result
 #from indexer import *
 #indexer['naendelea']['BABEL_OP2_202_15420_20140210_010333_inLine']['167.89']
@@ -149,9 +169,11 @@ def main() :
                         help='Out File XML')
     parser.add_argument('--queries', dest='queriesFile', action='store', required=True,
                         help='Out File XML')
+    parser.add_argument('--sn', dest='snpower', action='store', required=True,
+                        help='Out File XML')
    
     args = parser.parse_args()
-    getOutput(args.inFile, args.outFile, args.queriesFile)
+    getOutput(args.inFile, args.outFile, args.queriesFile, float(args.snpower))
     
     
 if __name__ == '__main__':
