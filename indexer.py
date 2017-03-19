@@ -86,7 +86,7 @@ def searchToken(query, indexer, scorer, positioner, fileArcs, snpower):
 		scoreTotal = sum(i**snpower for i in scoreA)
 		for hit in range(len(tbegA)):
 			result += '\n'
-			result += '<kw file="' + fileA[hit] + '" channel="' + channelA[hit] + '" tbeg="' + tbegA[hit] + '" dur="' + durA[hit] + '" score="' + str((scoreA[hit]**snpower)/scoreTotal)	+  '" decision="YES"/>'
+			result += '<kw file="' + fileA[hit] + '" channel="' + channelA[hit] + '" tbeg="' + tbegA[hit] + '" dur="' + durA[hit] + '" score="' + str((scoreA[hit]))	+  '" decision="YES"/>' #**snpower)/scoreTotal
 		return result
 
 	else:
@@ -148,7 +148,7 @@ def searchToken(query, indexer, scorer, positioner, fileArcs, snpower):
 		scoreTotal = sum(i**snpower for i in scoreA)
 		for hit in range(len(tbegA)):
 			result += '\n'
-			result += '<kw file="' + fileA[hit] + '" channel="' + channelA[hit] + '" tbeg="' + tbegA[hit] + '" dur="' + durA[hit] + '" score="' + str((scoreA[hit]**snpower)/scoreTotal) +  '" decision="YES"/>'
+			result += '<kw file="' + fileA[hit] + '" channel="' + channelA[hit] + '" tbeg="' + tbegA[hit] + '" dur="' + durA[hit] + '" score="' + str((scoreA[hit])) +  '" decision="YES"/>'
 		return result
 #from indexer import *
 #indexer['naendelea']['BABEL_OP2_202_15420_20140210_010333_inLine']['167.89']

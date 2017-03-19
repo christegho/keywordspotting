@@ -11,10 +11,10 @@
 |                        Value |                                                                                1 |
 |                        Ptarg |                                                                           0.0001 |
 |                         Cost |                                                                           0.1000 |
-|            Combined DET Plot |                                                        /tmp/6LbaWLaCM1/merge.png |
+|            Combined DET Plot |                                                        /tmp/m4a0vRxiq8/merge.png |
 
 
 |              |                  Inputs                  |                               Actual Decision TWV Analysis                                |              Maximum TWV Analysis               |                                              DET Curve Graphs                                              |
 |    Title     |  #Keyword  |  #Targ  |  #NTarg  |  #Sys  |  #CorDet  |  #Cor!Det  |  #FA  |  #Miss  |    PFA    |  PMiss   |   TWV    |  Dec. Tresh  |    PFA    |  PMiss   |   TWV    |  Dec. Thresh  |                    DET Curve                     |                     Threshold Curve                     |
 |--------------+------------+---------+----------+--------+-----------+------------+-------+---------+-----------+----------+----------+--------------+-----------+----------+----------+---------------+--------------------------------------------------+---------------------------------------------------------+
-|   Occurrence |        488 |     963 |      540 |    944 |       404 |          0 |   540 |     559 |   0.00003 |    0.659 |   0.3102 |       0.2106 |   0.00003 |    0.660 |   0.3125 |         0.560 |   /tmp/6LbaWLaCM1/merge.Occurrencescoring_de.png |   /tmp/6LbaWLaCM1/merge.Occurrencescoring_de.thresh.png |
+|   Occurrence |        488 |     963 |      597 |   1010 |       413 |          0 |   597 |     550 |   0.00003 |    0.653 |   0.3132 |       0.1473 |   0.00003 |    0.655 |   0.3148 |         0.205 |   /tmp/m4a0vRxiq8/merge.Occurrencescoring_de.png |   /tmp/m4a0vRxiq8/merge.Occurrencescoring_de.thresh.png |

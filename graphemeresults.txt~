@@ -1,0 +1,54 @@
+0
+decode
+all TWV=0.332050241423296 theshold=0.040 number=488
+iv TWV=0.397835862113219 theshold=0.040 number=388
+oov TWV=0.0768020331463931 theshold=0.040 number=100
+
+morph kwslist decode
+all TWV=0.318384899772614 theshold=0.059 number=488
+iv TWV=0.384055367096721 theshold=0.059 number=388
+oov TWV=0.0635834865550796 theshold=0.059 number=100
+
+1
+decode
+all TWV=0.335525234769697 theshold=0.076 number=488
+iv TWV=0.40127176410623 theshold=0.076 number=388
+oov TWV=0.0804287009439492 theshold=0.076 number=100
+
+morph kwslist decode
+all TWV=0.321438775098175 theshold=0.054 number=488
+iv TWV=0.387824421055252 theshold=0.054 number=388
+oov TWV=0.0638624687847151 theshold=0.054 number=100
+
+2
+decode
+all TWV=0.337489411779724 theshold=0.036 number=488
+iv TWV=0.403598371043601 theshold=0.036 number=388
+oov TWV=0.0809866498358809 theshold=0.036 number=100
+
+morph kwslist decode
+all TWV=0.322123919790891 theshold=0.046 number=488
+iv TWV=0.388326640261339 theshold=0.046 number=388
+oov TWV=0.0652573643655534 theshold=0.046 number=100
+
+3
+decode
+all TWV=0.332109489837449 theshold=0.016 number=488
+iv TWV=0.398845088932452 theshold=0.016 number=388
+oov TWV=0.0731753653488369 theshold=0.016 number=100
+
+morph kwslist decode
+all TWV=0.321200598017094 theshold=0.049 number=488
+iv TWV=0.386949643054801 theshold=0.049 number=388
+oov TWV=0.0660943032707903 theshold=0.049 number=100
+
+Non-SN
+decode
+all TWV=0.270648906604089 theshold=0.203 number=488
+iv TWV=0.340454014991788 theshold=0.203 number=388
+oov TWV=-0.000194913940184256 theshold=0.203 number=100
+
+morph kwslist decode
+all TWV=0.294550996195737 theshold=0.396 number=488
+iv TWV=0.356584123823235 theshold=0.396 number=388
+oov TWV=0.0538624610010455 theshold=0.396 number=100

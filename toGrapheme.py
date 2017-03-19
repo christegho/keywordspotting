@@ -58,15 +58,16 @@ def getIV(filename):
 				iv.append(arc[4].lower())
 	return iv		
 
-def transformQueries(iv, outFile, costs):
+def transformQueries(iv, outFile, costs, queriesFile):
 	oov = 0;
-	indir = './lib/kws/' + 'queries.xml'
+	indir = './lib/kws/' + queriesFile
 	text = open(indir).read()
 	entries = text.split('</kwtext>\n  </kw>\n  <kw ')
 	output = '<kwlist ecf_filename="IARPA-babel202b-v1.0d_conv-dev.ecf.xml" language="swahili" encoding="UTF-8" compareNormalize="lowercase" version="202 IBM and BBN keywords">'
 	entries[0] = entries[0].split('>\n  <kw ')[1]
-	entries[len(entries)-1] = entries[len(entries)-1].split('</kwtext>\n  </kw>\n</kwlist>')[0]
+	entries[len(entries)-1] = kwid='kwid="KW202-00091">\n    <kwtext>kazi ya ko'#entries[len(entries)-1].split('</kwtext>\n</kw>\n</kwlist>')[0]
 	for entry in entries:
+		
 		entry = entry.split('">\n    <kwtext>')
 		query = entry[1].split(' ')
 		kwid = entry[0].split('="')[1]
@@ -104,6 +105,8 @@ def main() :
                         help='In File XML')
     parser.add_argument('--out', dest='outFile', action='store', required=True,
                         help='Out File XML')
+    parser.add_argument('--queries', dest='queries', action='store', required=True,
+                        help='Out File XML')
    
     
     args = parser.parse_args()
@@ -112,7 +115,7 @@ def main() :
     iv = getIV(args.inFile)
     print 'Got IV words'
     print editDistance('lol','pop', costs)
-    transformQueries(iv, args.outFile, costs)
+    transformQueries(iv, args.outFile, costs, args.queries)
     
     
     
