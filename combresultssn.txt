@@ -34,12 +34,6 @@ all TWV=0.37130528513105 theshold=0.042 number=488
 iv TWV=0.439968427670134 theshold=0.042 number=388
 oov TWV=0.104892292079403 theshold=0.042 number=100
 ------------------------------------
-comb_all
-Delete scoring directory scoring/comb_all to rerun
-all TWV=0.312148463169135 theshold=0.400 number=488
-iv TWV=0.377494683632786 theshold=0.400 number=388
-oov TWV=0.0586051277701707 theshold=0.400 number=100
-------------------------------------
 comb_all2
 all TWV=0.373617132279831 theshold=0.083 number=488
 iv TWV=0.440647208219224 theshold=0.083 number=388
@@ -49,3 +43,8 @@ comb_dec_decmorph_decgraph_sn_502
 all TWV=0.370956977331741 theshold=0.035 number=488
 iv TWV=0.438391042839899 theshold=0.035 number=388
 oov TWV=0.109312803160086 theshold=0.035 number=100
+------------------------------------
+comb_all_sn
+all TWV=0.373130494735804 theshold=0.107 number=488
+iv TWV=0.441473145187035 theshold=0.107 number=388
+oov TWV=0.107961010985027 theshold=0.107 number=100

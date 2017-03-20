@@ -1,0 +1,270 @@
+------------------------------------
+comb_morph_comb_all2_50
+Delete scoring directory scoring/comb_morph_comb_all2_50 to rerun
+all TWV=0.314688418221402 theshold=0.131 number=488
+iv TWV=0.377763572722402 theshold=0.131 number=388
+oov TWV=0.0699568187575235 theshold=0.131 number=100
+------------------------------------
+comb_morph_comb_dec_decmorph_decgraph_sn_50_50
+Delete scoring directory scoring/comb_morph_comb_dec_decmorph_decgraph_sn_50_50 to rerun
+all TWV=0.387709074616067 theshold=0.065 number=488
+iv TWV=0.45200523162253 theshold=0.065 number=388
+oov TWV=0.138239985430993 theshold=0.065 number=100
+------------------------------------
+comb_morph_comb_dec_decmorph_sn_50_50
+Delete scoring directory scoring/comb_morph_comb_dec_decmorph_sn_50_50 to rerun
+all TWV=0.37617830046861 theshold=0.063 number=488
+iv TWV=0.449515293728297 theshold=0.063 number=388
+oov TWV=0.0916307666210242 theshold=0.063 number=100
+------------------------------------
+comb_morph_comb_dec_decmorph_3366_50
+Delete scoring directory scoring/comb_morph_comb_dec_decmorph_3366_50 to rerun
+all TWV=0.352369938750063 theshold=0.063 number=488
+iv TWV=0.419930259461112 theshold=0.063 number=388
+oov TWV=0.0902358943911949 theshold=0.063 number=100
+------------------------------------
+comb_morph_comb_all2_nonsn_50
+Delete scoring directory scoring/comb_morph_comb_all2_nonsn_50 to rerun
+all TWV=0.314688418221402 theshold=0.131 number=488
+iv TWV=0.377763572722402 theshold=0.131 number=388
+oov TWV=0.0699568187575235 theshold=0.131 number=100
+------------------------------------
+comb_word_comb_all2_50
+Delete scoring directory scoring/comb_word_comb_all2_50 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word_comb_all2_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_all2_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_all2_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_word_comb_dec_decmorph_decgraph_sn_50_50
+Delete scoring directory scoring/comb_word_comb_dec_decmorph_decgraph_sn_50_50 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word_comb_dec_decmorph_decgraph_sn_50_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_dec_decmorph_decgraph_sn_50_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_dec_decmorph_decgraph_sn_50_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_word_comb_dec_decmorph_sn_50_50
+Delete scoring directory scoring/comb_word_comb_dec_decmorph_sn_50_50 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word_comb_dec_decmorph_sn_50_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_dec_decmorph_sn_50_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_dec_decmorph_sn_50_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_word_comb_dec_decmorph_3366_50
+Delete scoring directory scoring/comb_word_comb_dec_decmorph_3366_50 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word_comb_dec_decmorph_3366_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_dec_decmorph_3366_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_dec_decmorph_3366_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_word_comb_all2_nonsn_50
+Delete scoring directory scoring/comb_word_comb_all2_nonsn_50 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word_comb_all2_nonsn_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_all2_nonsn_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_all2_nonsn_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_word-sys2_comb_all2_50
+Delete scoring directory scoring/comb_word-sys2_comb_all2_50 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_all2_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_all2_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_all2_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_word-sys2_comb_dec_decmorph_decgraph_sn_50_50
+Delete scoring directory scoring/comb_word-sys2_comb_dec_decmorph_decgraph_sn_50_50 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_dec_decmorph_decgraph_sn_50_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_dec_decmorph_decgraph_sn_50_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_dec_decmorph_decgraph_sn_50_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_word-sys2_comb_dec_decmorph_sn_50_50
+Delete scoring directory scoring/comb_word-sys2_comb_dec_decmorph_sn_50_50 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_dec_decmorph_sn_50_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_dec_decmorph_sn_50_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_dec_decmorph_sn_50_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_word-sys2_comb_dec_decmorph_3366_50
+Delete scoring directory scoring/comb_word-sys2_comb_dec_decmorph_3366_50 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_dec_decmorph_3366_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_dec_decmorph_3366_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_dec_decmorph_3366_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_word-sys2_comb_all2_nonsn_50
+Delete scoring directory scoring/comb_word-sys2_comb_all2_nonsn_50 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_all2_nonsn_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_all2_nonsn_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_all2_nonsn_50/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_morph_comb_all2_3366
+Delete scoring directory scoring/comb_morph_comb_all2_3366 to rerun
+all TWV=0.310028000680544 theshold=0.266 number=488
+iv TWV=0.373616528662871 theshold=0.266 number=388
+oov TWV=0.0633045121091138 theshold=0.266 number=100
+------------------------------------
+comb_morph_comb_dec_decmorph_decgraph_sn_50_3366
+Delete scoring directory scoring/comb_morph_comb_dec_decmorph_decgraph_sn_50_3366 to rerun
+all TWV=0.378785592074868 theshold=0.050 number=488
+iv TWV=0.444365810860279 theshold=0.050 number=388
+oov TWV=0.124334343187471 theshold=0.050 number=100
+------------------------------------
+comb_morph_comb_dec_decmorph_sn_50_3366
+Delete scoring directory scoring/comb_morph_comb_dec_decmorph_sn_50_3366 to rerun
+all TWV=0.373681199293884 theshold=0.041 number=488
+iv TWV=0.446518411037386 theshold=0.041 number=388
+oov TWV=0.0910728177290925 theshold=0.041 number=100
+------------------------------------
+comb_morph_comb_dec_decmorph_3366_3366
+Delete scoring directory scoring/comb_morph_comb_dec_decmorph_3366_3366 to rerun
+all TWV=0.356019230056167 theshold=0.041 number=488
+iv TWV=0.424591990394037 theshold=0.041 number=388
+oov TWV=0.0899569199452291 theshold=0.041 number=100
+------------------------------------
+comb_morph_comb_all2_nonsn_3366
+Delete scoring directory scoring/comb_morph_comb_all2_nonsn_3366 to rerun
+all TWV=0.310028000680544 theshold=0.266 number=488
+iv TWV=0.373616528662871 theshold=0.266 number=388
+oov TWV=0.0633045121091138 theshold=0.266 number=100
+------------------------------------
+comb_word_comb_all2_3366
+Delete scoring directory scoring/comb_word_comb_all2_3366 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word_comb_all2_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_all2_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_all2_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_word_comb_dec_decmorph_decgraph_sn_50_3366
+Delete scoring directory scoring/comb_word_comb_dec_decmorph_decgraph_sn_50_3366 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word_comb_dec_decmorph_decgraph_sn_50_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_dec_decmorph_decgraph_sn_50_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_dec_decmorph_decgraph_sn_50_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_word_comb_dec_decmorph_sn_50_3366
+Delete scoring directory scoring/comb_word_comb_dec_decmorph_sn_50_3366 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word_comb_dec_decmorph_sn_50_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_dec_decmorph_sn_50_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_dec_decmorph_sn_50_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_word_comb_dec_decmorph_3366_3366
+Delete scoring directory scoring/comb_word_comb_dec_decmorph_3366_3366 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word_comb_dec_decmorph_3366_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_dec_decmorph_3366_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_dec_decmorph_3366_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_word_comb_all2_nonsn_3366
+Delete scoring directory scoring/comb_word_comb_all2_nonsn_3366 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word_comb_all2_nonsn_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_all2_nonsn_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_all2_nonsn_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_word-sys2_comb_all2_3366
+Delete scoring directory scoring/comb_word-sys2_comb_all2_3366 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_all2_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_all2_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_all2_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_word-sys2_comb_dec_decmorph_decgraph_sn_50_3366
+Delete scoring directory scoring/comb_word-sys2_comb_dec_decmorph_decgraph_sn_50_3366 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_dec_decmorph_decgraph_sn_50_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_dec_decmorph_decgraph_sn_50_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_dec_decmorph_decgraph_sn_50_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_word-sys2_comb_dec_decmorph_sn_50_3366
+Delete scoring directory scoring/comb_word-sys2_comb_dec_decmorph_sn_50_3366 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_dec_decmorph_sn_50_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_dec_decmorph_sn_50_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_dec_decmorph_sn_50_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_word-sys2_comb_dec_decmorph_3366_3366
+Delete scoring directory scoring/comb_word-sys2_comb_dec_decmorph_3366_3366 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_dec_decmorph_3366_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_dec_decmorph_3366_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_dec_decmorph_3366_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_word-sys2_comb_all2_nonsn_3366
+Delete scoring directory scoring/comb_word-sys2_comb_all2_nonsn_3366 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_all2_nonsn_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_all2_nonsn_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_all2_nonsn_3366/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_morph_comb_all2_6633
+Delete scoring directory scoring/comb_morph_comb_all2_6633 to rerun
+all TWV=0.33122769605626 theshold=0.083 number=488
+iv TWV=0.394417520680554 theshold=0.083 number=388
+oov TWV=0.0860511765140014 theshold=0.083 number=100
+------------------------------------
+comb_morph_comb_dec_decmorph_decgraph_sn_50_6633
+Delete scoring directory scoring/comb_morph_comb_dec_decmorph_decgraph_sn_50_6633 to rerun
+all TWV=0.393348460422174 theshold=0.079 number=488
+iv TWV=0.460956380662258 theshold=0.079 number=388
+oov TWV=0.131029729890652 theshold=0.079 number=100
+------------------------------------
+comb_morph_comb_dec_decmorph_sn_50_6633
+Delete scoring directory scoring/comb_morph_comb_dec_decmorph_sn_50_6633 to rerun
+all TWV=0.383306021317922 theshold=0.079 number=488
+iv TWV=0.458695757924827 theshold=0.079 number=388
+oov TWV=0.0907938432831266 theshold=0.079 number=100
+------------------------------------
+comb_morph_comb_dec_decmorph_3366_6633
+Delete scoring directory scoring/comb_morph_comb_dec_decmorph_3366_6633 to rerun
+all TWV=0.354373261441255 theshold=0.083 number=488
+iv TWV=0.422378001803135 theshold=0.083 number=388
+oov TWV=0.0905148688371608 theshold=0.083 number=100
+------------------------------------
+comb_morph_comb_all2_nonsn_6633
+Delete scoring directory scoring/comb_morph_comb_all2_nonsn_6633 to rerun
+all TWV=0.33122769605626 theshold=0.083 number=488
+iv TWV=0.394417520680553 theshold=0.083 number=388
+oov TWV=0.0860511765140014 theshold=0.083 number=100
+------------------------------------
+comb_word_comb_all2_6633
+Delete scoring directory scoring/comb_word_comb_all2_6633 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word_comb_all2_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_all2_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_all2_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_word_comb_dec_decmorph_decgraph_sn_50_6633
+Delete scoring directory scoring/comb_word_comb_dec_decmorph_decgraph_sn_50_6633 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word_comb_dec_decmorph_decgraph_sn_50_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_dec_decmorph_decgraph_sn_50_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_dec_decmorph_decgraph_sn_50_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_word_comb_dec_decmorph_sn_50_6633
+Delete scoring directory scoring/comb_word_comb_dec_decmorph_sn_50_6633 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word_comb_dec_decmorph_sn_50_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_dec_decmorph_sn_50_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_dec_decmorph_sn_50_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_word_comb_dec_decmorph_3366_6633
+Delete scoring directory scoring/comb_word_comb_dec_decmorph_3366_6633 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word_comb_dec_decmorph_3366_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_dec_decmorph_3366_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_dec_decmorph_3366_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_word_comb_all2_nonsn_6633
+Delete scoring directory scoring/comb_word_comb_all2_nonsn_6633 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word_comb_all2_nonsn_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_all2_nonsn_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word_comb_all2_nonsn_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_word-sys2_comb_all2_6633
+Delete scoring directory scoring/comb_word-sys2_comb_all2_6633 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_all2_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_all2_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_all2_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_word-sys2_comb_dec_decmorph_decgraph_sn_50_6633
+Delete scoring directory scoring/comb_word-sys2_comb_dec_decmorph_decgraph_sn_50_6633 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_dec_decmorph_decgraph_sn_50_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_dec_decmorph_decgraph_sn_50_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_dec_decmorph_decgraph_sn_50_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_word-sys2_comb_dec_decmorph_sn_50_6633
+Delete scoring directory scoring/comb_word-sys2_comb_dec_decmorph_sn_50_6633 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_dec_decmorph_sn_50_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_dec_decmorph_sn_50_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_dec_decmorph_sn_50_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_word-sys2_comb_dec_decmorph_3366_6633
+Delete scoring directory scoring/comb_word-sys2_comb_dec_decmorph_3366_6633 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_dec_decmorph_3366_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_dec_decmorph_3366_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_dec_decmorph_3366_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+------------------------------------
+comb_word-sys2_comb_all2_nonsn_6633
+Delete scoring directory scoring/comb_word-sys2_comb_all2_nonsn_6633 to rerun
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_all2_nonsn_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_all2_nonsn_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv
+ERROR: KWS alignment file not found: scoring/comb_word-sys2_comb_all2_nonsn_6633/Full-Occur-MITLLFA3-AppenWordSeg.alignment.csv

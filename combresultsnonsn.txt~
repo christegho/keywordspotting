@@ -1,20 +1,46 @@
 ------------------------------------
+comb_dec_decmorph_decgraph_50
+all TWV=0.33923334006193 theshold=0.526 number=488
+iv TWV=0.411272596378398 theshold=0.526 number=388
+oov TWV=0.0597210255540341 theshold=0.526 number=100
+------------------------------------
 comb_dec_decmorph_50
-all TWV=0.31965897273766 theshold=0.560 number=488
-iv TWV=0.384363571956086 theshold=0.560 number=388
-oov TWV=0.0686051277701707 theshold=0.560 number=100
+all TWV=0.344747048338928 theshold=0.103 number=488
+iv TWV=0.41613334831487 theshold=0.103 number=388
+oov TWV=0.0677682044322731 theshold=0.103 number=100
 ------------------------------------
 comb_dec_decmorph_33
-all TWV=0.317609792409791 theshold=0.370 number=488
-iv TWV=0.384363571956086 theshold=0.370 number=388
-oov TWV=0.0586051277701707 theshold=0.370 number=100
+all TWV=0.344804216828607 theshold=0.068 number=488
+iv TWV=0.416205250951374 theshold=0.068 number=388
+oov TWV=0.0677682044322731 theshold=0.068 number=100
+------------------------------------
+comb_dec_decmorph_6633
+all TWV=0.347768083415472 theshold=0.135 number=488
+iv TWV=0.419861100048779 theshold=0.135 number=388
+oov TWV=0.068047178878239 theshold=0.135 number=100
+------------------------------------
+comb_dec_decmorph_3366
+all TWV=0.344804216828607 theshold=0.068 number=488
+iv TWV=0.416205250951374 theshold=0.068 number=388
+oov TWV=0.0677682044322731 theshold=0.068 number=100
 ------------------------------------
 comb_dec_decgraph_50
-all TWV=0.270648906604089 theshold=0.203 number=488
-iv TWV=0.340454014991788 theshold=0.203 number=388
-oov TWV=-0.000194913940184224 theshold=0.203 number=100
+all TWV=0.282375623998987 theshold=0.488 number=488
+iv TWV=0.355152846679138 theshold=0.488 number=388
+oov TWV=0 theshold=0.488 number=100
 ------------------------------------
 comb_decmorph_decmorphgraph_50
-all TWV=0.294550996195737 theshold=0.396 number=488
-iv TWV=0.356584123823235 theshold=0.396 number=388
-oov TWV=0.0538624610010455 theshold=0.396 number=100
+all TWV=0.317666960899471 theshold=0.560 number=488
+iv TWV=0.38443547459259 theshold=0.560 number=388
+oov TWV=0.0586051277701707 theshold=0.560 number=100
+------------------------------------
+comb_all
+all TWV=0.312148463169135 theshold=0.400 number=488
+iv TWV=0.377494683632786 theshold=0.400 number=388
+oov TWV=0.0586051277701707 theshold=0.400 number=100
+------------------------------------
+comb_all2
+Delete scoring directory scoring/comb_all2 to rerun
+all TWV=0.373617132279831 theshold=0.083 number=488
+iv TWV=0.440647208219224 theshold=0.083 number=388
+oov TWV=0.113540437634987 theshold=0.083 number=100

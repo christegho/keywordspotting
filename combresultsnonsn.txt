@@ -38,3 +38,9 @@ comb_all
 all TWV=0.312148463169135 theshold=0.400 number=488
 iv TWV=0.377494683632786 theshold=0.400 number=388
 oov TWV=0.0586051277701707 theshold=0.400 number=100
+------------------------------------
+------------------------------------
+comb_all2_nonsn
+all TWV=0.321599089314158 theshold=0.294 number=488
+iv TWV=0.388097956004642 theshold=0.294 number=388
+oov TWV=0.0635834865550796 theshold=0.294 number=100
