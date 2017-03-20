@@ -1,0 +1,20 @@
+------------------------------------
+comb_dec_decmorph_50
+all TWV=0.31965897273766 theshold=0.560 number=488
+iv TWV=0.384363571956086 theshold=0.560 number=388
+oov TWV=0.0686051277701707 theshold=0.560 number=100
+------------------------------------
+comb_dec_decmorph_33
+all TWV=0.317609792409791 theshold=0.370 number=488
+iv TWV=0.384363571956086 theshold=0.370 number=388
+oov TWV=0.0586051277701707 theshold=0.370 number=100
+------------------------------------
+comb_dec_decgraph_50
+all TWV=0.270648906604089 theshold=0.203 number=488
+iv TWV=0.340454014991788 theshold=0.203 number=388
+oov TWV=-0.000194913940184224 theshold=0.203 number=100
+------------------------------------
+comb_decmorph_decmorphgraph_50
+all TWV=0.294550996195737 theshold=0.396 number=488
+iv TWV=0.356584123823235 theshold=0.396 number=388
+oov TWV=0.0538624610010455 theshold=0.396 number=100

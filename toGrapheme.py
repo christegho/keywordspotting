@@ -1,7 +1,7 @@
 import argparse
 
 def editDistance(s1, s2, costs):
-#sourse: http://stackoverflow.com/questions/2460177/edit-distance-in-python
+
     m=len(s1)+1
     n=len(s2)+1
 

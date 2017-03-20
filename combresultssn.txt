@@ -1,0 +1,51 @@
+------------------------------------
+comb_dec_decmorph_sn_50
+all TWV=0.361579149344157 theshold=0.037 number=488
+iv TWV=0.437087917791061 theshold=0.037 number=388
+oov TWV=0.0686051277701707 theshold=0.037 number=100
+------------------------------------
+comb_dec_decmorph_sn_33
+all TWV=0.361342074960975 theshold=0.025 number=488
+iv TWV=0.436789741762728 theshold=0.025 number=388
+oov TWV=0.0686051277701707 theshold=0.025 number=100
+------------------------------------
+comb_dec_decmorph_sn_6633
+all TWV=0.361097968182026 theshold=0.023 number=488
+iv TWV=0.436482720865495 theshold=0.023 number=388
+oov TWV=0.0686051277701707 theshold=0.023 number=100
+------------------------------------
+comb_dec_decmorph_sn_3366
+all TWV=0.361084416234789 theshold=0.038 number=488
+iv TWV=0.43646567614835 theshold=0.038 number=388
+oov TWV=0.0686051277701707 theshold=0.038 number=100
+------------------------------------
+comb_dec_decgraph_sn_50
+all TWV=0.339599110759102 theshold=0.020 number=488
+iv TWV=0.406108005612527 theshold=0.020 number=388
+oov TWV=0.0815445987278127 theshold=0.020 number=100
+------------------------------------
+comb_decmorph_decmorphgraph_sn_50
+all TWV=0.323387825055849 theshold=0.048 number=488
+iv TWV=0.389341073213892 theshold=0.048 number=388
+oov TWV=0.0674892222026376 theshold=0.048 number=100
+------------------------------------
+comb_dec_decmorph_decgraph_sn_50
+all TWV=0.37130528513105 theshold=0.042 number=488
+iv TWV=0.439968427670134 theshold=0.042 number=388
+oov TWV=0.104892292079403 theshold=0.042 number=100
+------------------------------------
+comb_all
+Delete scoring directory scoring/comb_all to rerun
+all TWV=0.312148463169135 theshold=0.400 number=488
+iv TWV=0.377494683632786 theshold=0.400 number=388
+oov TWV=0.0586051277701707 theshold=0.400 number=100
+------------------------------------
+comb_all2
+all TWV=0.373617132279831 theshold=0.083 number=488
+iv TWV=0.440647208219224 theshold=0.083 number=388
+oov TWV=0.113540437634987 theshold=0.083 number=100
+------------------------------------
+comb_dec_decmorph_decgraph_sn_502
+all TWV=0.370956977331741 theshold=0.035 number=488
+iv TWV=0.438391042839899 theshold=0.035 number=388
+oov TWV=0.109312803160086 theshold=0.035 number=100
