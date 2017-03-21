@@ -158,7 +158,7 @@ done
 done
 done
 
-#TODO
+
 for sys1 in morph word word-sys2
 do
 for combs in morph word word-sys2
@@ -232,4 +232,14 @@ done
 done
 done
 
+for length in one two three four five
+do
+echo --------------------------------------- >> length.txt
+echo $length >> length.txt
+for comb in comb_word2_morph2_3366 comb_word-sys2_comb_dec_decmorph_decgraph_sn_50_6633 morph word-sys2 morph2 word-sys3
+do
+echo $comb >> length.txt
+./scripts/termselect.sh length.map output/${comb}.xml scoring $length >> length.txt
+done
+done
 

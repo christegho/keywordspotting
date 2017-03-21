@@ -1,0 +1,70 @@
+---------------------------------------
+one
+comb_word2_morph2_3366
+one TWV=0.520159219776442 theshold=0.014 number=288
+comb_word-sys2_comb_dec_decmorph_decgraph_sn_50_6633
+one TWV=0.426789094429962 theshold=0.065 number=288
+morph
+one TWV=0.372033195979011 theshold=0.071 number=288
+word-sys2
+one TWV=0.387239835758641 theshold=0.047 number=288
+morph2
+one TWV=0.511328813718461 theshold=0.008 number=288
+word-sys3
+one TWV=0.450486510742934 theshold=0.011 number=288
+---------------------------------------
+two
+comb_word2_morph2_3366
+two TWV=0.573011619807595 theshold=0.014 number=168
+comb_word-sys2_comb_dec_decmorph_decgraph_sn_50_6633
+two TWV=0.45508766915342 theshold=0.065 number=168
+morph
+two TWV=0.383645625898123 theshold=0.071 number=168
+word-sys2
+two TWV=0.4728180809111 theshold=0.047 number=168
+morph2
+two TWV=0.566558034419151 theshold=0.008 number=168
+word-sys3
+two TWV=0.524448704369691 theshold=0.011 number=168
+---------------------------------------
+three
+comb_word2_morph2_3366
+three TWV=0.391630766621024 theshold=0.014 number=20
+comb_word-sys2_comb_dec_decmorph_decgraph_sn_50_6633
+three TWV=0.24163033849313 theshold=0.065 number=20
+morph
+three TWV=0.197209944167492 theshold=0.071 number=20
+word-sys2
+three TWV=0.243024977186807 theshold=0.047 number=20
+morph2
+three TWV=0.294420355394258 theshold=0.008 number=20
+word-sys3
+three TWV=0.340235894391195 theshold=0.011 number=20
+---------------------------------------
+four
+comb_word2_morph2_3366
+four TWV=0.0972102555403414 theshold=0.014 number=10
+comb_word-sys2_comb_dec_decmorph_decgraph_sn_50_6633
+four TWV=0.1 theshold=0.065 number=10
+morph
+four TWV=0 theshold=0.071 number=10
+word-sys2
+four TWV=0.1 theshold=0.047 number=10
+morph2
+four TWV=-0.0027897444596586 theshold=0.008 number=10
+word-sys3
+four TWV=0.1 theshold=0.011 number=10
+---------------------------------------
+five
+comb_word2_morph2_3366
+five TWV=0 theshold=0.014 number=2
+comb_word-sys2_comb_dec_decmorph_decgraph_sn_50_6633
+five TWV=0 theshold=0.065 number=2
+morph
+five TWV=0 theshold=0.071 number=2
+word-sys2
+five TWV=0 theshold=0.047 number=2
+morph2
+five TWV=0 theshold=0.008 number=2
+word-sys3
+five TWV=0 theshold=0.011 number=2

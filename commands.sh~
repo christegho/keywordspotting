@@ -158,7 +158,7 @@ done
 done
 done
 
-#TODO
+
 for sys1 in morph word word-sys2
 do
 for combs in morph word word-sys2
@@ -191,7 +191,55 @@ echo ${comb} >> comb.txt
 fi
 done
 done
+done
+done
 
+
+
+
+
+for sys1 in comb_word-sys2_comb_dec_decmorph_decgraph_sn_50_6633 comb_word_comb_dec_decmorph_decgraph_sn_50_6633 comb_morph_word_3366
+do
+for combs in comb_word-sys2_comb_dec_decmorph_decgraph_sn_50_6633 comb_word_comb_dec_decmorph_decgraph_sn_50_6633 comb_morph_word_3366
+do
+if [ "${sys1}" != "${combs}" ]
+then
+python combine.py --hits1 ${sys1}.xml --hits2 ${combs}.xml --alpha 0.5 --beta 0.5 --out comb_${sys1}_${combs}_50.xml
+python combine.py --hits1 ${sys1}.xml --hits2 ${combs}.xml --alpha 0.33 --beta 0.66 --out comb_${sys1}_${combs}_3366.xml
+python combine.py --hits1 ${sys1}.xml --hits2 ${combs}.xml --alpha 0.66 --beta 0.33 --out comb_${sys1}_${combs}_6633.xml
+fi
+done
+done
+
+for w in 50 3366 6633
+do
+for sys1 in comb_word-sys2_comb_dec_decmorph_decgraph_sn_50_6633 comb_word_comb_dec_decmorph_decgraph_sn_50_6633 comb_morph_word_3366
+do
+for combs in comb_word-sys2_comb_dec_decmorph_decgraph_sn_50_6633 comb_word_comb_dec_decmorph_decgraph_sn_50_6633 comb_morph_word_3366
+do
+if [ "${sys1}" != "${combs}" ]
+then
+comb=comb_${sys1}_${combs}_${w}
+echo ------------------------------------ >> comb.txt
+echo ${comb} >> comb.txt
+./scripts/score.sh output/${comb}.xml scoring >> comb.txt
+./scripts/termselect.sh lib/terms/ivoov.map output/${comb}.xml scoring all >> comb.txt
+./scripts/termselect.sh lib/terms/ivoov.map output/${comb}.xml scoring iv >> comb.txt
+./scripts/termselect.sh lib/terms/ivoov.map output/${comb}.xml scoring oov >> comb.txt
+fi
+done
+done
+done
+done
+
+for length in one two three four five
+do
+echo --------------------------------------- >> length.txt
+echo $length >> length.txt
+for comb in 
+do
+echo $comb >> length.txt
+./scripts/termselect.sh length.map output/${comb}.xml scoring $length >> length.txt
 done
 done
 

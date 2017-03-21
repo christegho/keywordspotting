@@ -1,0 +1,420 @@
+------------------------------------
+morph2
+all TWV=0.508821634829145 theshold=0.008 number=488
+iv TWV=0.546132566266609 theshold=0.008 number=388
+oov TWV=0.364055220851782 theshold=0.008 number=100
+------------------------------------
+word2
+all TWV=0.455882082271047 theshold=0.007 number=488
+iv TWV=0.573377464299668 theshold=0.007 number=388
+oov TWV=0 theshold=0.007 number=100
+------------------------------------
+word-sys3
+all TWV=0.462402080565363 theshold=0.011 number=488
+iv TWV=0.581577874525507 theshold=0.011 number=388
+oov TWV=0 theshold=0.011 number=100
+------------------------------------
+comb_morph2_comb_all2_50
+all TWV=0.445242842962422 theshold=0.132 number=488
+iv TWV=0.471167210607247 theshold=0.132 number=388
+oov TWV=0.344656296500502 theshold=0.132 number=100
+------------------------------------
+comb_morph2_comb_dec_decmorph_decgraph_sn_50_50
+all TWV=0.480197721348851 theshold=0.038 number=488
+iv TWV=0.512144537039073 theshold=0.038 number=388
+oov TWV=0.356244076470792 theshold=0.038 number=100
+------------------------------------
+comb_morph2_comb_dec_decmorph_sn_50_50
+all TWV=0.490701732073553 theshold=0.014 number=488
+iv TWV=0.521545041635731 theshold=0.014 number=388
+oov TWV=0.371029690972304 theshold=0.014 number=100
+------------------------------------
+comb_morph2_comb_dec_decmorph_3366_50
+all TWV=0.478551954010736 theshold=0.014 number=488
+iv TWV=0.50647957936546 theshold=0.014 number=388
+oov TWV=0.370192767634406 theshold=0.014 number=100
+------------------------------------
+comb_morph2_comb_all2_nonsn_50
+all TWV=0.445242842962422 theshold=0.132 number=488
+iv TWV=0.471167210607247 theshold=0.132 number=388
+oov TWV=0.344656296500502 theshold=0.132 number=100
+------------------------------------
+comb_word2_comb_all2_50
+all TWV=0.399152271646123 theshold=0.124 number=488
+iv TWV=0.48563907192732 theshold=0.124 number=388
+oov TWV=0.0635834865550796 theshold=0.124 number=100
+------------------------------------
+comb_word2_comb_dec_decmorph_decgraph_sn_50_50
+all TWV=0.446115295960131 theshold=0.021 number=488
+iv TWV=0.534059369125268 theshold=0.021 number=388
+oov TWV=0.104892292079403 theshold=0.021 number=100
+------------------------------------
+comb_word2_comb_dec_decmorph_sn_50_50
+all TWV=0.446385956828429 theshold=0.018 number=488
+iv TWV=0.543752149884681 theshold=0.018 number=388
+oov TWV=0.0686051277701707 theshold=0.018 number=100
+------------------------------------
+comb_word2_comb_dec_decmorph_3366_50
+all TWV=0.432056084359845 theshold=0.006 number=488
+iv TWV=0.525944713207158 theshold=0.006 number=388
+oov TWV=0.0677682044322731 theshold=0.006 number=100
+------------------------------------
+comb_word2_comb_all2_nonsn_50
+all TWV=0.399152271646123 theshold=0.124 number=488
+iv TWV=0.48563907192732 theshold=0.124 number=388
+oov TWV=0.0635834865550796 theshold=0.124 number=100
+------------------------------------
+comb_word-sys3_comb_all2_50
+all TWV=0.400512040110146 theshold=0.129 number=488
+iv TWV=0.487349296181039 theshold=0.129 number=388
+oov TWV=0.0635834865550796 theshold=0.129 number=100
+------------------------------------
+comb_word-sys3_comb_dec_decmorph_decgraph_sn_50_50
+all TWV=0.452885690112757 theshold=0.012 number=488
+iv TWV=0.538714282396453 theshold=0.012 number=388
+oov TWV=0.119870752052017 theshold=0.012 number=100
+------------------------------------
+comb_word-sys3_comb_dec_decmorph_sn_50_50
+all TWV=0.45188550187407 theshold=0.013 number=488
+iv TWV=0.55066910344724 theshold=0.013 number=388
+oov TWV=0.0686051277701707 theshold=0.013 number=100
+------------------------------------
+comb_word-sys3_comb_dec_decmorph_3366_50
+all TWV=0.438132207330319 theshold=0.006 number=488
+iv TWV=0.533586847252495 theshold=0.006 number=388
+oov TWV=0.0677682044322731 theshold=0.006 number=100
+------------------------------------
+comb_word-sys3_comb_all2_nonsn_50
+all TWV=0.400512040110146 theshold=0.129 number=488
+iv TWV=0.48734929618104 theshold=0.129 number=388
+oov TWV=0.0635834865550796 theshold=0.129 number=100
+------------------------------------
+comb_morph2_comb_all2_3366
+all TWV=0.434178720199132 theshold=0.165 number=488
+iv TWV=0.461902842568513 theshold=0.165 number=388
+oov TWV=0.326609125405933 theshold=0.165 number=100
+------------------------------------
+comb_morph2_comb_dec_decmorph_decgraph_sn_50_3366
+all TWV=0.48415953901865 theshold=0.048 number=488
+iv TWV=0.516911739845961 theshold=0.048 number=388
+oov TWV=0.357080999808689 theshold=0.048 number=100
+------------------------------------
+comb_morph2_comb_dec_decmorph_sn_50_3366
+all TWV=0.482927007170945 theshold=0.025 number=488
+iv TWV=0.515555038822219 theshold=0.025 number=388
+oov TWV=0.356330244364003 theshold=0.025 number=100
+------------------------------------
+comb_morph2_comb_dec_decmorph_3366_3366
+all TWV=0.47803742324422 theshold=0.009 number=488
+iv TWV=0.50590434021315 theshold=0.009 number=388
+oov TWV=0.369913785404771 theshold=0.009 number=100
+------------------------------------
+comb_morph2_comb_all2_nonsn_3366
+all TWV=0.434178720199132 theshold=0.165 number=488
+iv TWV=0.461902842568513 theshold=0.165 number=388
+oov TWV=0.326609125405933 theshold=0.165 number=100
+------------------------------------
+comb_word2_comb_all2_3366
+all TWV=0.387561330503729 theshold=0.181 number=488
+iv TWV=0.471060774820391 theshold=0.181 number=388
+oov TWV=0.0635834865550796 theshold=0.181 number=100
+------------------------------------
+comb_word2_comb_dec_decmorph_decgraph_sn_50_3366
+all TWV=0.442731095212691 theshold=0.013 number=488
+iv TWV=0.526014424492754 theshold=0.013 number=388
+oov TWV=0.119591777606052 theshold=0.013 number=100
+------------------------------------
+comb_word2_comb_dec_decmorph_sn_50_3366
+all TWV=0.437907582839578 theshold=0.016 number=488
+iv TWV=0.533160528590963 theshold=0.016 number=388
+oov TWV=0.0683261533242048 theshold=0.016 number=100
+------------------------------------
+comb_word2_comb_dec_decmorph_3366_3366
+all TWV=0.431260171345547 theshold=0.004 number=488
+iv TWV=0.52494366797268 theshold=0.004 number=388
+oov TWV=0.0677682044322731 theshold=0.004 number=100
+------------------------------------
+comb_word2_comb_all2_nonsn_3366
+all TWV=0.387561330503729 theshold=0.181 number=488
+iv TWV=0.471060774820392 theshold=0.181 number=388
+oov TWV=0.0635834865550796 theshold=0.181 number=100
+------------------------------------
+comb_word-sys3_comb_all2_3366
+all TWV=0.385967291700965 theshold=0.162 number=488
+iv TWV=0.469055901274647 theshold=0.162 number=388
+oov TWV=0.0635834865550796 theshold=0.162 number=100
+------------------------------------
+comb_word-sys3_comb_dec_decmorph_decgraph_sn_50_3366
+all TWV=0.446966969132119 theshold=0.013 number=488
+iv TWV=0.531342018494508 theshold=0.013 number=388
+oov TWV=0.119591777606052 theshold=0.013 number=100
+------------------------------------
+comb_word-sys3_comb_dec_decmorph_sn_50_3366
+all TWV=0.445073271273863 theshold=0.008 number=488
+iv TWV=0.542316845202108 theshold=0.008 number=388
+oov TWV=0.0677682044322731 theshold=0.008 number=100
+------------------------------------
+comb_word-sys3_comb_dec_decmorph_3366_3366
+all TWV=0.438360878099008 theshold=0.004 number=488
+iv TWV=0.533874453786311 theshold=0.004 number=388
+oov TWV=0.0677682044322731 theshold=0.004 number=100
+------------------------------------
+comb_word-sys3_comb_all2_nonsn_3366
+all TWV=0.385967291700965 theshold=0.162 number=488
+iv TWV=0.469055901274647 theshold=0.162 number=388
+oov TWV=0.0635834865550796 theshold=0.162 number=100
+------------------------------------
+comb_morph2_comb_all2_6633
+all TWV=0.452650802623429 theshold=0.098 number=488
+iv TWV=0.478338522416914 theshold=0.098 number=388
+oov TWV=0.352982449824707 theshold=0.098 number=100
+------------------------------------
+comb_morph2_comb_dec_decmorph_decgraph_sn_50_6633
+all TWV=0.485935290008739 theshold=0.019 number=488
+iv TWV=0.516075647753948 theshold=0.019 number=388
+oov TWV=0.368990701957331 theshold=0.019 number=100
+------------------------------------
+comb_morph2_comb_dec_decmorph_sn_50_6633
+all TWV=0.492252459069111 theshold=0.019 number=488
+iv TWV=0.523423539906957 theshold=0.019 number=388
+oov TWV=0.371308665418269 theshold=0.019 number=100
+------------------------------------
+comb_morph2_comb_dec_decmorph_3366_6633
+all TWV=0.475677994460066 theshold=0.019 number=488
+iv TWV=0.502864908590392 theshold=0.019 number=388
+oov TWV=0.370192767634406 theshold=0.019 number=100
+------------------------------------
+comb_morph2_comb_all2_nonsn_6633
+all TWV=0.452650802623429 theshold=0.098 number=488
+iv TWV=0.478338522416914 theshold=0.098 number=388
+oov TWV=0.352982449824707 theshold=0.098 number=100
+------------------------------------
+comb_word2_comb_all2_6633
+all TWV=0.403676682241219 theshold=0.086 number=488
+iv TWV=0.491329567727337 theshold=0.086 number=388
+oov TWV=0.0635834865550796 theshold=0.086 number=100
+------------------------------------
+comb_word2_comb_dec_decmorph_decgraph_sn_50_6633
+all TWV=0.447515738088779 theshold=0.024 number=488
+iv TWV=0.537463361339248 theshold=0.024 number=388
+oov TWV=0.0985189598769591 theshold=0.024 number=100
+------------------------------------
+comb_word2_comb_dec_decmorph_sn_50_6633
+all TWV=0.446988131702992 theshold=0.012 number=488
+iv TWV=0.544509524469183 theshold=0.012 number=388
+oov TWV=0.0686051277701707 theshold=0.012 number=100
+------------------------------------
+comb_word2_comb_dec_decmorph_3366_6633
+all TWV=0.431260171345547 theshold=0.008 number=488
+iv TWV=0.524943667972679 theshold=0.008 number=388
+oov TWV=0.0677682044322731 theshold=0.008 number=100
+------------------------------------
+comb_word2_comb_all2_nonsn_6633
+all TWV=0.403676682241219 theshold=0.086 number=488
+iv TWV=0.491329567727337 theshold=0.086 number=388
+oov TWV=0.0635834865550796 theshold=0.086 number=100
+------------------------------------
+comb_word-sys3_comb_all2_6633
+all TWV=0.401041159475199 theshold=0.249 number=488
+iv TWV=0.487727183994853 theshold=0.249 number=388
+oov TWV=0.0646993843389431 theshold=0.249 number=100
+------------------------------------
+comb_word-sys3_comb_dec_decmorph_decgraph_sn_50_6633
+all TWV=0.454463274016309 theshold=0.018 number=488
+iv TWV=0.546561002461974 theshold=0.018 number=388
+oov TWV=0.0971240876471298 theshold=0.018 number=100
+------------------------------------
+comb_word-sys3_comb_dec_decmorph_sn_50_6633
+all TWV=0.45530131761914 theshold=0.009 number=488
+iv TWV=0.554965284075061 theshold=0.009 number=388
+oov TWV=0.0686051277701707 theshold=0.009 number=100
+------------------------------------
+comb_word-sys3_comb_dec_decmorph_3366_6633
+all TWV=0.439365113828772 theshold=0.007 number=488
+iv TWV=0.535137513157767 theshold=0.007 number=388
+oov TWV=0.0677682044322731 theshold=0.007 number=100
+------------------------------------
+comb_word-sys3_comb_all2_nonsn_6633
+all TWV=0.401041159475199 theshold=0.249 number=488
+iv TWV=0.487727183994853 theshold=0.249 number=388
+oov TWV=0.0646993843389431 theshold=0.249 number=100
+------------------------------------
+comb_morph2_word2_50
+all TWV=0.517901673307936 theshold=0.012 number=488
+iv TWV=0.555395775856769 theshold=0.012 number=388
+oov TWV=0.372424555418463 theshold=0.012 number=100
+------------------------------------
+comb_morph2_word-sys3_50
+all TWV=0.510786470229325 theshold=0.012 number=488
+iv TWV=0.546446757551712 theshold=0.012 number=388
+oov TWV=0.372424555418463 theshold=0.012 number=100
+------------------------------------
+comb_word2_morph2_50
+all TWV=0.517901673307935 theshold=0.012 number=488
+iv TWV=0.555395775856769 theshold=0.012 number=388
+oov TWV=0.372424555418463 theshold=0.012 number=100
+------------------------------------
+comb_word2_word-sys3_50
+all TWV=0.443279984566188 theshold=0.018 number=488
+iv TWV=0.557527403268814 theshold=0.018 number=388
+oov TWV=0 theshold=0.018 number=100
+------------------------------------
+comb_word-sys3_morph2_50
+all TWV=0.510786470229325 theshold=0.012 number=488
+iv TWV=0.546446757551712 theshold=0.012 number=388
+oov TWV=0.372424555418463 theshold=0.012 number=100
+------------------------------------
+comb_word-sys3_word2_50
+all TWV=0.443279984566188 theshold=0.018 number=488
+iv TWV=0.557527403268814 theshold=0.018 number=388
+oov TWV=0 theshold=0.018 number=100
+------------------------------------
+comb_morph2_word2_3366
+all TWV=0.517645749229987 theshold=0.006 number=488
+iv TWV=0.555649103026447 theshold=0.006 number=388
+oov TWV=0.370192736499727 theshold=0.006 number=100
+------------------------------------
+comb_morph2_word-sys3_3366
+all TWV=0.515184990076875 theshold=0.009 number=488
+iv TWV=0.551835115274421 theshold=0.009 number=388
+oov TWV=0.372982504310395 theshold=0.009 number=100
+------------------------------------
+comb_word2_morph2_3366
+all TWV=0.522287961703104 theshold=0.014 number=488
+iv TWV=0.561128256855134 theshold=0.014 number=388
+oov TWV=0.371587616513226 theshold=0.014 number=100
+------------------------------------
+comb_word2_word-sys3_3366
+all TWV=0.445002075331 theshold=0.018 number=488
+iv TWV=0.559693331859608 theshold=0.018 number=388
+oov TWV=0 theshold=0.018 number=100
+------------------------------------
+comb_word-sys3_morph2_3366
+all TWV=0.51073546087041 theshold=0.013 number=488
+iv TWV=0.546814011251532 theshold=0.013 number=388
+oov TWV=0.370750685391659 theshold=0.013 number=100
+------------------------------------
+comb_word-sys3_word2_3366
+all TWV=0.438096363382375 theshold=0.029 number=488
+iv TWV=0.551007797243811 theshold=0.029 number=388
+oov TWV=0 theshold=0.029 number=100
+------------------------------------
+comb_morph2_word2_6633
+all TWV=0.522287961703104 theshold=0.014 number=488
+iv TWV=0.561128256855134 theshold=0.014 number=388
+oov TWV=0.371587616513226 theshold=0.014 number=100
+------------------------------------
+comb_morph2_word-sys3_6633
+all TWV=0.51073546087041 theshold=0.013 number=488
+iv TWV=0.546814011251532 theshold=0.013 number=388
+oov TWV=0.370750685391659 theshold=0.013 number=100
+------------------------------------
+comb_word2_morph2_6633
+all TWV=0.517645749229988 theshold=0.006 number=488
+iv TWV=0.555649103026446 theshold=0.006 number=388
+oov TWV=0.370192736499727 theshold=0.006 number=100
+------------------------------------
+comb_word2_word-sys3_6633
+all TWV=0.438096363382375 theshold=0.029 number=488
+iv TWV=0.551007797243811 theshold=0.029 number=388
+oov TWV=0 theshold=0.029 number=100
+------------------------------------
+comb_word-sys3_morph2_6633
+all TWV=0.515184990076875 theshold=0.009 number=488
+iv TWV=0.551835115274422 theshold=0.009 number=388
+oov TWV=0.372982504310395 theshold=0.009 number=100
+------------------------------------
+comb_word-sys3_word2_6633
+all TWV=0.445002075330999 theshold=0.018 number=488
+iv TWV=0.559693331859607 theshold=0.018 number=388
+oov TWV=0 theshold=0.018 number=100
+------------------------------------
+comb_comb_word-sys3_comb_dec_decmorph_decgraph_sn_50_6633_comb_word2_comb_dec_decmorph_decgraph_sn_50_6633_50
+all TWV=0.446393840567862 theshold=0.036 number=488
+iv TWV=0.534901904886277 theshold=0.036 number=388
+oov TWV=0.102982551012413 theshold=0.036 number=100
+------------------------------------
+comb_comb_word-sys3_comb_dec_decmorph_decgraph_sn_50_6633_comb_morph2_word2_3366_50
+all TWV=0.504904137625263 theshold=0.034 number=488
+iv TWV=0.540558263051483 theshold=0.034 number=388
+oov TWV=0.366566130971528 theshold=0.034 number=100
+------------------------------------
+comb_comb_word2_comb_dec_decmorph_decgraph_sn_50_6633_comb_word-sys3_comb_dec_decmorph_decgraph_sn_50_6633_50
+all TWV=0.446393840567862 theshold=0.036 number=488
+iv TWV=0.534901904886277 theshold=0.036 number=388
+oov TWV=0.102982551012413 theshold=0.036 number=100
+------------------------------------
+comb_comb_word2_comb_dec_decmorph_decgraph_sn_50_6633_comb_morph2_word2_3366_50
+all TWV=0.505198758201811 theshold=0.032 number=488
+iv TWV=0.540928816766317 theshold=0.032 number=388
+oov TWV=0.366566130971528 theshold=0.032 number=100
+------------------------------------
+comb_comb_morph2_word2_3366_comb_word-sys3_comb_dec_decmorph_decgraph_sn_50_6633_50
+all TWV=0.504904137625263 theshold=0.034 number=488
+iv TWV=0.540558263051484 theshold=0.034 number=388
+oov TWV=0.366566130971528 theshold=0.034 number=100
+------------------------------------
+comb_comb_morph2_word2_3366_comb_word2_comb_dec_decmorph_decgraph_sn_50_6633_50
+all TWV=0.50519875820181 theshold=0.032 number=488
+iv TWV=0.540928816766317 theshold=0.032 number=388
+oov TWV=0.366566130971528 theshold=0.032 number=100
+------------------------------------
+comb_comb_word-sys3_comb_dec_decmorph_decgraph_sn_50_6633_comb_word2_comb_dec_decmorph_decgraph_sn_50_6633_3366
+all TWV=0.445668140683172 theshold=0.021 number=488
+iv TWV=0.535283380296095 theshold=0.021 number=388
+oov TWV=0.0979610109850274 theshold=0.021 number=100
+------------------------------------
+comb_comb_word-sys3_comb_dec_decmorph_decgraph_sn_50_6633_comb_morph2_word2_3366_3366
+all TWV=0.507055350224641 theshold=0.040 number=488
+iv TWV=0.541825899279744 theshold=0.040 number=388
+oov TWV=0.372145619890846 theshold=0.040 number=100
+------------------------------------
+comb_comb_word2_comb_dec_decmorph_decgraph_sn_50_6633_comb_word-sys3_comb_dec_decmorph_decgraph_sn_50_6633_3366
+all TWV=0.450608312690501 theshold=0.030 number=488
+iv TWV=0.540562084316253 theshold=0.030 number=388
+oov TWV=0.101587678782584 theshold=0.030 number=100
+------------------------------------
+comb_comb_word2_comb_dec_decmorph_decgraph_sn_50_6633_comb_morph2_word2_3366_3366
+all TWV=0.509243268465292 theshold=0.028 number=488
+iv TWV=0.54558432279982 theshold=0.028 number=388
+oov TWV=0.368239977647324 theshold=0.028 number=100
+------------------------------------
+comb_comb_morph2_word2_3366_comb_word-sys3_comb_dec_decmorph_decgraph_sn_50_6633_3366
+all TWV=0.504244397715229 theshold=0.024 number=488
+iv TWV=0.54087889716862 theshold=0.024 number=388
+oov TWV=0.362102539836075 theshold=0.024 number=100
+------------------------------------
+comb_comb_morph2_word2_3366_comb_word2_comb_dec_decmorph_decgraph_sn_50_6633_3366
+all TWV=0.50308249906559 theshold=0.026 number=488
+iv TWV=0.53912993758251 theshold=0.026 number=388
+oov TWV=0.363218437619938 theshold=0.026 number=100
+------------------------------------
+comb_comb_word-sys3_comb_dec_decmorph_decgraph_sn_50_6633_comb_word2_comb_dec_decmorph_decgraph_sn_50_6633_6633
+all TWV=0.450608312690501 theshold=0.030 number=488
+iv TWV=0.540562084316253 theshold=0.030 number=388
+oov TWV=0.101587678782584 theshold=0.030 number=100
+------------------------------------
+comb_comb_word-sys3_comb_dec_decmorph_decgraph_sn_50_6633_comb_morph2_word2_3366_6633
+all TWV=0.504244397715229 theshold=0.024 number=488
+iv TWV=0.54087889716862 theshold=0.024 number=388
+oov TWV=0.362102539836075 theshold=0.024 number=100
+------------------------------------
+comb_comb_word2_comb_dec_decmorph_decgraph_sn_50_6633_comb_word-sys3_comb_dec_decmorph_decgraph_sn_50_6633_6633
+all TWV=0.445668140683171 theshold=0.021 number=488
+iv TWV=0.535283380296096 theshold=0.021 number=388
+oov TWV=0.0979610109850274 theshold=0.021 number=100
+------------------------------------
+comb_comb_word2_comb_dec_decmorph_decgraph_sn_50_6633_comb_morph2_word2_3366_6633
+all TWV=0.50308249906559 theshold=0.026 number=488
+iv TWV=0.539129937582511 theshold=0.026 number=388
+oov TWV=0.363218437619938 theshold=0.026 number=100
+------------------------------------
+comb_comb_morph2_word2_3366_comb_word-sys3_comb_dec_decmorph_decgraph_sn_50_6633_6633
+all TWV=0.507055350224641 theshold=0.040 number=488
+iv TWV=0.541825899279744 theshold=0.040 number=388
+oov TWV=0.372145619890846 theshold=0.040 number=100
+------------------------------------
+comb_comb_morph2_word2_3366_comb_word2_comb_dec_decmorph_decgraph_sn_50_6633_6633
+all TWV=0.509243268465292 theshold=0.028 number=488
+iv TWV=0.54558432279982 theshold=0.028 number=388
+oov TWV=0.368239977647324 theshold=0.028 number=100
